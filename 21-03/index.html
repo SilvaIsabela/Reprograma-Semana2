@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulários</title>
+    
+    </head>
+
+    <body>
+        <h1> Preencha aqui</h1>
+       
+        <Section>
+
+            <form action="sucesso.html" method="POST">
+                
+                <div> 
+                    <label for="nome-da-pessoa">Seu Nome</label>
+                     <input type="text" placeholder="Escreva seu nome" name="nome-da-pessoa"> 
+                </div>
+
+                <div>
+                    <label for="senha-da-pessoa">Seu Senha</label>
+                    <input type="password" placeholder="Digite sua senha" name="senha-da-pessoa">
+                </div>
+
+                <div>
+                    <label>Seu Email</label>
+                    <input type="email" placeholder="Digite seu email">
+                </div>
+
+                <div>
+                    <label for="idade-da-pessoa">Sua Idade</label>
+                    <input type="number" name="idade-da-pessoa">
+                </div>
+
+                <div>
+                    <label for="usuaria-talentosa">Declaro que sou maravilhosa</label>
+                    <input type="checkbox" name="usuaria-talentosa">
+                </div>
+
+                <div>
+                    <label for="">Selecione sua profissão:</label>
+
+                    <input type="radio" name= profissão value="programadora">Programadora
+                    
+                    <input type="radio" name=profissão value="designer"><span>Designer</span> 
+
+                    <input type="radio" name=profissão value="arquiteta">Arquiteta
+                </div>
+
+                <div>
+                    <label for="cidade-da-pessoa">Sua cidade:</label>
+                    <select name="cidade-da-pessoa">
+                        <option value="são-paulo">São Paulo</option>
+                        <option value="rio-de-janeiro">Rio de Janeiro</option>
+                        <option value="ribeirao-pires">Ribeirão Pires</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="vida">Conte sua vida:</label>
+                    <textarea name="vida"  rows="3" placeholder="Estudei no reprograma">
+                    </textarea>
+                </div>
+
+                <input type="submit" value="enviar">
+
+            </form>
+       
+    </Section>
+
+    </body>
+</html>
