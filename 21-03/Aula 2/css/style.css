@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+.cabecalho {
+    background-image: url('../img/bg-banner.png');
+    min-height: 80vh;
+    background-position: right;
+    padding-top: 120px;
+    /* contain (deixa a imagem ajustando ao tamanho do elemento. Cover (estica a imagem alterando a proporção da imagem.) */
+    /* background-size: contain;
+    background-repeat: no-repeat; comando se quiser que a imagem seja repetida na pagina */
+
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}

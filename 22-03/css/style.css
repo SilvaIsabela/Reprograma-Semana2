@@ -1,0 +1,66 @@
+th, td {
+border-right: 1px solid #CCC;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*  Seletor de referência-nth(posição)-child(numero ou odd(impar)-even(par). ex: acrescenta cor automatico a linha/coluna a tabela */
+tbody > tr:nth-child(odd) {
+    background-color: #dfdfdf;   
+}
+
+/* Classe da  <Table> */
+.planos {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-bottom: 1px solid #CCC;
+    text-align: center;
+}
+
+.autonomo {
+    background-color: #0078c1;
+}
+
+.pequenas-empresas {
+    background-color:  #009e2c;
+}
+
+tr td:first-child {
+    text-align: left; 
+}
+
+.comprar {
+    border: none; 
+    text-transform: uppercase; 
+    padding: 10px;
+    border-radius: 5%;
+    background-color: #ff5406;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.linha-botoes > th {
+    padding: 10px 0;
+    border-top: none;
+}
+
+.check-azul { 
+    color: #0078c1;
+}
+
+.check-verde {
+    color: #009e2c;
+}
+
+.linha-profissoes th {
+
+}
+
+.cabecalho th {
+    font-size: 12px;
+    color: #ffffff; 
+    padding: 10px;
+}
